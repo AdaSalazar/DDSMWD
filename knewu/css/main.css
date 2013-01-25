@@ -1,0 +1,172 @@
+h1{
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	color: #3300CC;
+	font-size: 150%;	
+	margin: 0;
+	padding: 0 0 1em 0;
+}
+
+h2{
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	color: #660066;
+	font-size: 130%;
+}
+
+body{
+	background-color:#FFFFFF;
+}
+
+p {
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	font-size: 125%;
+	color: #660099;
+}
+
+#footer{
+	text-align: center;
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	font-size: 80%;
+	color:#6600FF;
+	background-color: #9999FF;
+	display: block;
+}
+#footer a:hover {background:#CC99FF;}	
+#wrapper {
+	position: relative;
+	text-align: left;
+	width: 85%;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+#navigation
+{
+	text-align: right;
+}
+#navigation a:hover {background:#CC99FF;}	
+	
+#links{
+font-family: "Century Schoolbook", cursive, sans-serif;
+} 
+#links a:hover {background:#CC99FF;}	
+#links a:visited {color:#9966CC;}
+
+
+#tabs{
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	color: #580644;
+	border: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 5px;
+	background: #d94692;
+	text-shadow: rgb(90,90,90) 2px 2px 3px;
+ }
+#tabs li a{
+	list-style:none;
+	padding: 0em .3em 0em .3em;
+	color: black;
+	font-weight: bold;
+}
+#tabs li{
+	display:inline-block;
+	list-style:none;
+	/*vertical-align: middle;	*/
+ }
+ #tabs a:hover{
+	border-radius: 5px;
+	background:#d98db4;
+	padding: .1em .3em .3em .3em;
+}
+#tabs #selected {
+	padding: 0em .3em 0em .3em;
+	background-image: url('../Images/MenuStar.png');
+	background-position: right top;
+	background-repeat:no-repeat;
+	position: relative;
+}
+
+#tabContent {
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	border: 2px solid;
+	clear: both;
+	padding: 1em;
+	color:#3300CC;
+}
+#tabContent p {
+	margin: 0;
+	padding: 1em;
+}
+
+.login {
+	font-family: "Century Schoolbook", cursive, sans-serif;	
+	font-size: 120%;
+	font-weight: bold;
+	color: #d94692;
+	text-align: right;
+}
+.center {
+    width: 35%;
+	height: 35%;
+	margin-left: 33%; 
+}
+.right{
+	position:absolute;
+	right:0px;
+	width: 25%;
+	height: 25%;
+}
+.left{
+	position:absolute;
+	left:0px;
+	width: 25%;
+	height: 25%;
+}
+#bigText{
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	color: #663399;
+	font-size: 120%;
+}
+
+#navigation{
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	color: #663399;
+	font-size: 60%;
+	text-align: right;
+}
+#navigation a:hover {background:#CC99FF;}
+
+#right{
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	color: #663399;
+	text-align: right;
+}
+/*Options 
+font-size:120%,2.5em, *40px;* Not good
+
+color: purple, #00ff00;
+text-align:center, right, justify;
+text-decoration:overline, line-through, underline, blink;
+
+p.uppercase {text-transform:uppercase;}
+p.lowercase {text-transform:lowercase;}
+p.capitalize {text-transform:capitalize;}
+
+font-family:"Century Schoolbook", cursive, sans-serif
+word-spacing:30px;
+text-indent:50px;
+
+//always use them in this order
+a:link {color:#FF0000;
+background-color:#B2FF99;}
+text-decoration:underline;}     unvisited link 
+a:visited {color:#00FF00;}  visited link 
+a:hover {color:#FF00FF;}   mouse over link 
+a:active {color:#0000FF;}   selected link 
+
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
+
+ol.c {list-style-type: upper-roman;}
+ol.d {list-style-type: lower-alpha;}
+
+*/
