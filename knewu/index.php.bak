@@ -19,7 +19,33 @@
 	
 
 	<div id="wrapper">
-		
+		<!--Top Menu-->	
+			<div id="topMenu">	
+				<div id="logoTop">
+					<a>  <img src="images/icons/logo.png" width="40" height="45" alt="logo">	</a>
+				</div>	
+				<div id="loginNs">
+					<a  href="login.html">	
+					<img src="images/icons/login.png" width="30" height="30" alt="Login">	<br /> Log in 	</a>
+				</div>     	 	
+				<div id="activityNs">
+					<a  href="activity.html">	
+					<img src="images/icons/activity.png" width="30" height="30" alt="Activity"><br /> 	Activities </a>
+				</div>	  	
+				<div id="openingNs">
+					<a  href="opening.html">
+					<img src="images/icons/opening.png" width="30" height="30" alt="Opening"><br /> 	Opening </a>
+				</div>  	
+				<div id="menuNs">
+					<a  href="menu.html">
+					<img src="images/icons/menu.png" width="30" height="30" alt="Menu">	<br /> Menu</a>
+				</div>		
+				<div id="home">
+					<a  href="index.html">
+					<img src="images/icons/home.png" width="30" height="30" alt="Home">	<br /> Home </a>
+				</div>	 
+				   
+			</div>
 
 		<?php
 			$labels = array("Home","MakeUp Basics","Gallery","Tutorials");
@@ -30,26 +56,24 @@
 			//this will just take the name of the file   start  end
 			$tabName =  substr($parts[count($parts) - 1],  0,   -4);
 			/**/echo '
-				<div id="tabs"> 
-				<ul>';
+				<div id="tabs">';
 			
 			for ($i=0; $i<=3; $i++){
 			//echo $link[$i].'  '.$tabName;
 				if (strcmp ($link[$i],$tabName) == 0){
-					echo '<li id="selected">';
+					echo '<div id="selected">';
 				} else {
-					echo '<li>';
+					echo '<div id="noSelected">';
 				}				
-				echo '<a href="'.$link[$i].'.php?adminEntryVerified">'.$labels[$i].'</a></li>';
+				echo '<a href="'.$link[$i].'.php?adminEntryVerified">'.$labels[$i].'</a></div>';
 			 }	
-			echo 	'<li>
+			echo 	'<div id="noSelected">
 							<!-- This is the search engine miniform-->
 						<form action="../cms/search.php" method="GET">
 									<input type="text" size="15" name="search">
 									<input type="submit" name="submit" value="Search">
 						</form>
-					</li>
-				</ul>
+					</div>
 			</div><!--tabs-->
 				';/**/
 			 
@@ -76,59 +100,58 @@
 		?>
 		<div id="content">
 
-				<img src="images/corner.png" width="30%" align="right"/>
-		<p>asdf
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		end
-		</p>
+			<p>asdf
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				end
+			</p>
 		</div><!--content-->
 	</div><!--wrapper-->
 	
