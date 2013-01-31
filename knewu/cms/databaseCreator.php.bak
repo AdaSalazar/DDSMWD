@@ -3,7 +3,7 @@
 	function databaseCreator(){
 		$connect = mysql_connect("localhost","root","") or die("Couldn't connect." . mysql_error());
 		
-		echo "<p>Connected</p>";
+		//echo "<p>Connected</p>";
 		
 		if (!mysql_select_db("knewUDB")) {
 			$query = ("CREATE DATABASE knewUDB");
@@ -92,7 +92,7 @@
 
 		
 		} else {
-			echo "<p>Database exists</p>" . mysql_error();
+			//echo "<p>Database exists</p>" . mysql_error();
 		}
 	}
 	//databaseCreator();

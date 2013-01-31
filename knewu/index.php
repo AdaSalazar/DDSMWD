@@ -19,46 +19,19 @@
 	
 
 	<div id="wrapper">
-		<!--Top Menu-->	
-			<!--<div id="topMenu">	
-				<div id="logoTop">
-					<a>  <img src="images/icons/logo.png" width="40" height="45" alt="logo">	</a>
-				</div>	
-				<div id="loginNs">
-					<a  href="login.html">	
-					<img src="images/icons/login.png" width="30" height="30" alt="Login">	<br /> Log in 	</a>
-				</div>     	 	
-				<div id="activityNs">
-					<a  href="activity.html">	
-					<img src="images/icons/activity.png" width="30" height="30" alt="Activity"><br /> 	Activities </a>
-				</div>	  	
-				<div id="openingNs">
-					<a  href="opening.html">
-					<img src="images/icons/opening.png" width="30" height="30" alt="Opening"><br /> 	Opening </a>
-				</div>  	
-				<div id="menuNs">
-					<a  href="menu.html">
-					<img src="images/icons/menu.png" width="30" height="30" alt="Menu">	<br /> Menu</a>
-				</div>		
-				<div id="home">
-					<a  href="index.html">
-					<img src="images/icons/home.png" width="30" height="30" alt="Home">	<br /> Home </a>
-				</div>	 
-				   
-			</div>-->
 
 		<?php
-			$labels = array("Home","MakeUp Basics","Gallery","Tutorials");
+			/*$labels = array("Home","MakeUp Basics","Gallery","Tutorials");
 			$link = array("index","makeupBasics","gallery","tutorials");
 			//$labels = array("","","","");
 			$currentFile = $_SERVER["PHP_SELF"];
 			$parts = Explode('/', $currentFile);
 			//this will just take the name of the file   start  end
 			$tabName =  substr($parts[count($parts) - 1],  0,   -4);
-			/**/echo '
+			echo '
 				<div id="tabs">';
-			
-			for ($i=0; $i<=3; $i++){
+			*/
+			/*for ($i=0; $i<=3; $i++){
 			//echo $link[$i].'  '.$tabName;
 				if (strcmp ($link[$i],$tabName) == 0){
 					echo '<div id="selected">';
@@ -75,10 +48,10 @@
 						</form>
 					</div>
 			</div><!--tabs-->
-				';/**/
+				';*/
 			 
 			
-			echo $tabName;
+			//echo $tabName;
 			/*	echo '
 			<div id="tabs"> 
 				<ul>

@@ -14,6 +14,7 @@ h2{
 
 body{
 	background-color:#FFFFFF;
+	min-width:600px;
 }
 
 p {
@@ -37,6 +38,7 @@ p {
 	width: 85%;
 	margin: 0 auto 0 auto;
 	padding: 0;
+	
 }
 
 #navigation
@@ -52,110 +54,6 @@ font-family: "Century Schoolbook", cursive, sans-serif;
 #links a:visited {color:#9966CC;}
 
 
-/*
-#topMenu{
-	display: block;
-	float: left;
-	width: 100%;
-	padding-top: 2px;
-}*/
-/*No Selected tabs
-#noSelected{
-	display:inline;
-	float: left;
-	height: 46;
-	padding-left: 1.5%;	
-}
-*/
-
-/*selected tabs
-#selected{
-	background: #d9b8ef;	
-	display:inline; 
-	float: right;
-	width: 17%;
-	padding:0;
-	height: 46;
-	text-align:center;
-}
-*/
-
-/*hover tabs
-#noSelected:hover{
-	background: #e589c0;	
-*/
-
-
-
-#tabs{
-	font-family: "Century Schoolbook", cursive, sans-serif;
-	color: #580644;
-	border: solid;
-	border-width: 2px 2px 2px 2px;
-	border-radius: 5px;
-	background: #d94692;
-	text-shadow: rgb(90,90,90) 2px 2px 3px;
-	display: block;
-	min-width:755;
-	
- }/*
-#tabs li a{
-	list-style:none;
-	padding: 0em .3em 0em .3em;
-	color: black;
-	font-weight: bold;
-}
-#tabs li{
-	display:inline-block;
-	list-style:none;
-	vertical-align: middle;	
- }*/
- #tabs a:hover{
-	border-radius: 5px;
-	background:#d98db4;
-	float: left;
-	/*padding: .1em .3em .3em .3em;*/
-}
-#selected a{
-	padding: .5em 0em 0em 0em;/**/
-	background-image: url('../Images/MenuStar.png');
-	background-position: right top;
-	background-repeat:no-repeat;
-	position: relative;
-	display:inline; 
-	float: left;
-	width: 17%;
-	text-align:center;
-	text-decoration: none;
-	font-weight: bold;
-	color:black;
-}
-#noSelected a{
-	padding: .5em .3em 0em .3em;
-	/*background-image: url('../Images/MenuStar.png');
-	background-position: right top;
-	background-repeat:no-repeat;
-	position: relative;*/
-	display:inline; 
-	float: left;
-	width: 17%;
-	text-align:center;
-	text-decoration: none;
-	font-weight: bold;
-	color:black;
-}
-
-#tabContent {
-	font-family: "Century Schoolbook", cursive, sans-serif;
-	border: 2px solid;
-	clear: both;
-	padding: 1em;
-	color:#3300CC;
-}
-#tabContent p {
-	margin: 0;
-	padding: 1em;
-}
 
 .login {
 	font-family: "Century Schoolbook", cursive, sans-serif;	
@@ -164,23 +62,123 @@ font-family: "Century Schoolbook", cursive, sans-serif;
 	color: #d94692;
 	text-align: right;
 }
-.center {
-    width: 35%;
-	height: 35%;
-	margin-left: 33%; 
+
+#topBanner
+{
+	width: 100%;
+	margin-left: 0;
 }
-.right{
-	position:absolute;
-	right:0px;
-	width: 25%;
-	height: 25%;
+
+.logo{
+	width: 70%;
+	height: 70%;
 }
-.left{
-	position:absolute;
-	left:0px;
-	width: 25%;
-	height: 25%;
+.brush{
+	width: 50%;
+	height: 50%;
+	margin: 0;
 }
+#tabs{
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	color: #580644;	
+	border: outset;
+	border-width: 2px;
+	border-radius: 5px;
+	/*background: #d94692;*/
+	background-image: linear-gradient(bottom, rgb(143,24,88) 25%, rgb(217,70,146) 65%);
+	background-image: -o-linear-gradient(bottom, rgb(143,24,88) 25%, rgb(217,70,146) 65%);
+	background-image: -moz-linear-gradient(bottom, rgb(143,24,88) 25%, rgb(217,70,146) 65%);
+	background-image: -webkit-linear-gradient(bottom, rgb(143,24,88) 25%, rgb(217,70,146) 65%);
+	background-image: -ms-linear-gradient(bottom, rgb(143,24,88) 25%, rgb(217,70,146) 65%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.25, rgb(143,24,88)),
+		color-stop(0.65, rgb(217,70,146))
+	);
+	
+	text-shadow: rgb(90,90,90) 2px 2px 3px;
+	display: block;
+	padding: .2em .2em .1em .2em;
+	/**/min-width:675;
+	clear:both;
+	
+ }
+#noSelected a:hover{
+/*#d98db4;*/
+	border-radius: 5px;
+	/*background: #d98db4;*/
+	background-image: linear-gradient(bottom, rgb(217,70,146) 25%, rgb(143,24,88) 70%);
+	background-image: -o-linear-gradient(bottom, rgb(217,70,146) 25%, rgb(143,24,88) 70%);
+	background-image: -moz-linear-gradient(bottom, rgb(217,70,146) 25%, rgb(143,24,88) 70%);
+	background-image: -webkit-linear-gradient(bottom, rgb(217,70,146) 25%, rgb(143,24,88) 70%);
+	background-image: -ms-linear-gradient(bottom, rgb(217,70,146) 25%, rgb(143,24,88) 70%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.25, rgb(217,70,146)),
+		color-stop(0.7, rgb(143,24,88))
+	);
+	
+	position: relative;
+	float: left;
+	padding: .5em 0em .5em 0em;
+	/*padding: .2em 0em .2em 0em;*/
+}
+#selected a{
+	padding: .5em 0em .8em 0em;/**/
+	/**/background-image: url('../Images/MenuStar.png');
+	background-position: 100% top;
+	background-repeat:no-repeat;
+	position: relative;
+	display:inline; 
+	float: left;
+	width: 15%;
+	text-align:center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:110%;
+	color:black;
+	border: 1.5px  dash #d98db4;
+	border-radius: 5px;
+	
+	
+}
+#noSelected a{
+	padding: .5em 0em .8em 0em;
+	display:inline; 
+	float: left;
+	width: 17%;
+	text-align:center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:110%;
+	color:black;
+}
+
+#sForm{
+	padding:5px 10px 0px 0px;
+	display:inline-table; 
+	text-align:right;
+	/*border:1.5px  solid pink;*/
+}
+
+#content {
+	font-family: "Century Schoolbook", cursive, sans-serif;
+	border: 2px solid;
+	clear: both;
+	padding: 1em;
+	color:#3300CC;
+	clear:both;
+}
+#content p {
+	margin: 0;
+	padding: 1em;
+}
+
+
 #bigText{
 	font-family: "Century Schoolbook", cursive, sans-serif;
 	color: #663399;

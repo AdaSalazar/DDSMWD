@@ -92,7 +92,7 @@
 
 		
 		} else {
-			//echo "<p>Database exists</p>" . mysql_error();
+			echo "<p>Database exists</p>" . mysql_error();
 		}
 	}
 	//databaseCreator();
