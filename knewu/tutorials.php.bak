@@ -5,7 +5,7 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 	<meta http-equiv="Default-Style" content="Main">
-	<title>Gallery - kNewU</title>
+	<title>Tutorials</title>
 	<!--This part does the styles switcher-->
 	<link rel="stylesheet" type="text/css" title="Main" 
 	href="css/main.css">
@@ -15,7 +15,6 @@
 </head>
 
 <body>
-	
 <!-- Places the images on top-->
 	<?php require 'cms/banner.php'?>
 	<div id="wrapper">
@@ -23,21 +22,6 @@
 		<div id="content">
 
 			<p>asdf
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
 				<br>
 				<br>
 				<br>

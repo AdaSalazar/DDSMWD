@@ -5,7 +5,7 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 	<meta http-equiv="Default-Style" content="Main">
-	<title>Gallery - kNewU</title>
+	<title>Search Results - kNewU</title>
 	<!--This part does the styles switcher-->
 	<link rel="stylesheet" type="text/css" title="Main" 
 	href="css/main.css">

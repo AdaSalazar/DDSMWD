@@ -39,8 +39,26 @@ p {
 	text-align: left;
 	width: 85%;
 	margin: 0 auto 0 auto;
-	padding: 0;
+	padding: .5em;
+	border: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	color:purple;
 	
+	background-image: linear-gradient(bottom, rgb(242,164,206) 25%, rgb(255,235,246) 70%);
+	background-image: -o-linear-gradient(bottom, rgb(242,164,206) 25%, rgb(255,235,246) 70%);
+	background-image: -moz-linear-gradient(bottom, rgb(242,164,206) 25%, rgb(255,235,246) 70%);
+	background-image: -webkit-linear-gradient(bottom, rgb(242,164,206) 25%, rgb(255,235,246) 70%);
+	background-image: -ms-linear-gradient(bottom, rgb(242,164,206) 25%, rgb(255,235,246) 70%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.25, rgb(242,164,206)),
+		color-stop(0.7, rgb(255,235,246))
+	);
+		
 }
 
 #navigation
@@ -65,43 +83,46 @@ font-family: "Century Schoolbook", cursive, sans-serif;
 	min-width:680;
 }
 #leftImg{
-	width: 30%;
+	/*width: 30%;*/
 	display:inline;
 	margin-left:0;
-	float: right;
+	float: left;
+	padding: 2em 0 .5em 1em;
 	/*background:pink;*/
 }
+
+ /*old css
 #centerImg{
 	width: 38%;
 	display:inline;
 	float: right;
-	/*background:purple;*/
+
 	padding-left:2%;
 }
 #rightImg{
 	width: 30%;
 	display:inline;
 	float: right;
-	/*background:blue;*/
 }
 .logo{
 
 	height: 30%;
 }
 .brush{
-	/*width: 50%;	width: 50%;*/
+	
 	height: 30%;
-
 }
-
+*/
 
 .login {
 	font-family: "Century Schoolbook", cursive, sans-serif;	
-	font-size: 120%;
+	font-size: 110%;
 	font-weight: bold;
-	color: #d94692;
+	color: #c11a70;
 	text-align: right;
-	clear:both;
+	float:right;
+	display:inline;
+	padding: 2em .5em .5em 2em;
 }
 .login :hover{
 	border: solid;
@@ -221,10 +242,9 @@ font-family: "Century Schoolbook", cursive, sans-serif;
 
 #content {
 	font-family: "Century Schoolbook", cursive, sans-serif;
-	border: 2px solid;
-	clear: both;
+	/*border: 2px solid;
+	color:#3300CC;*/
 	padding: 1em;
-	color:#3300CC;
 	clear:both;
 }
 #content p {
@@ -251,5 +271,5 @@ font-family: "Century Schoolbook", cursive, sans-serif;
 	font-family: "Century Schoolbook", cursive, sans-serif;
 	color: #663399;
 	text-align: right;
-	margin:0px
+	margin:0px;
 }
